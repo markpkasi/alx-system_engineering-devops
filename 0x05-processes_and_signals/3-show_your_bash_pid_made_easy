@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# A script that displays PID, along with process name, of processes with the name containing the word bash
+# Disallowed to use ps
+
+pgrep -l bash
